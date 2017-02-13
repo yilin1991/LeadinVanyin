@@ -21,6 +21,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Leadin.Common", "Leadin.Com
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Leadin.Web.UI", "Leadin.Web.UI\Leadin.Web.UI.csproj", "{E8C33CEE-59D2-4B57-8966-5D8D9F694A2D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CCPRestSDK", "CCPRestSDK\CCPRestSDK.csproj", "{184BE321-6411-4EAA-816F-A63C8AD2FDA8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeChatAPI", "WeChatAPI\WeChatAPI.csproj", "{124E3771-7786-47CA-9BAA-7B528951772D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +67,14 @@ Global
 		{E8C33CEE-59D2-4B57-8966-5D8D9F694A2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E8C33CEE-59D2-4B57-8966-5D8D9F694A2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E8C33CEE-59D2-4B57-8966-5D8D9F694A2D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{184BE321-6411-4EAA-816F-A63C8AD2FDA8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{184BE321-6411-4EAA-816F-A63C8AD2FDA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{184BE321-6411-4EAA-816F-A63C8AD2FDA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{184BE321-6411-4EAA-816F-A63C8AD2FDA8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{124E3771-7786-47CA-9BAA-7B528951772D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{124E3771-7786-47CA-9BAA-7B528951772D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{124E3771-7786-47CA-9BAA-7B528951772D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{124E3771-7786-47CA-9BAA-7B528951772D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
