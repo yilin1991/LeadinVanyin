@@ -1,0 +1,153 @@
+*{margin: 0;padding: 0;}
+li{list-style: none;}
+img{border: none;}
+a{text-decoration: none;}
+
+body{font-family: arial,"microsoft yahei",simsun,simhei;min-width: 1100px;font-size: 12px;background-color: #fdfcfc;}
+
+/***************头部样式***************/
+
+#header{width: 1100px; height: 165px;margin: 0 auto; }
+
+/*头部顶部*/
+#header ul.headertop{width: 100%;height: 110px;}
+#header ul.headertop li{height: 50px;;margin-top: 30px;}
+#header ul.headertop li.headerlogo{float: left;}
+#header ul.headertop li.headerlogo img{display: block;height: 100%;}
+#header ul.headertop li.headertel{float: right;} 
+#header ul.headertop li.headertel p.link{height: 20px;}
+#header ul.headertop li.headertel p.link a{display: inline-block;margin-left: 15px;color: #919191;line-height: 20px;}
+#header ul.headertop li.headertel p.link a:hover{color: #17b4bb;}
+
+
+#header ul.headertop li.headertel p.tel{height: 30px;line-height: 30px;font-size: 20px;line-height: 30px;text-align: right;color: #e93052;letter-spacing: 1px;}
+
+/*便捷印刷类别*/
+#header div.menu{width: 100%;height: 55px;position: relative;z-index: 999999; background-color: #FCFCFC;}
+#header ul.printmenu{float: left; width: 210px;position: absolute;top: 0;left: 0;overflow: hidden;}
+
+#header ul.printmenu li{width: 100%; height: 45px; background-color: #FFFFFF;}
+
+#header ul.printmenu li.title{height: 55px; background-color: #17b4bb;}
+
+#header ul.printmenu li.title span{line-height: 55px;}
+#header ul.printmenu li.title span.text{font-size: 14px;color: #fcfcfc;padding-left: 25px;}
+#header ul.printmenu li.title span.img{padding-left: 60px;}
+
+#header ul.printmenu li.pmli{box-sizing: border-box;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;border: solid 1px #e1e1e1;border-top: none;cursor: pointer;}
+
+#header ul.printmenu li.pmli span{display: block;float: left;height: 25px;margin-top: 10px;}
+#header ul.printmenu li.pmli span.ico{width: 40px;margin-left: 25px;}
+#header ul.printmenu li.pmli span.ico img{display: block;height: 100%;}
+#header ul.printmenu li.pmli span.name{font-size: 14px;color: #656565;line-height: 22px;} 
+
+
+#header ul.headermenu{width: 890px;float: right;height: 55px;box-sizing: border-box;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;border-bottom: solid 5px #000000;border-top: solid 1px #000000;position: relative;}
+
+#header ul.headermenu li{float: left;height: 100%; margin-left: 44px;}
+
+#header ul.headermenu li a{display: block;width: 100%;height: 100%; font-size: 16px;color: #000000;line-height: 49px;text-align: center;letter-spacing: 1px;}
+
+#header ul.headermenu li.hmli1{width: 70px;margin-left: 35px;}
+#header ul.headermenu li.hmli2{width: 120px;}
+#header ul.headermenu li.hmli2 span{display: block;float: left;height: 25px;margin-top: 12px;line-height: 25px;}
+#header ul.headermenu li.hmli2 span img{display: block;height: 100%;margin: 0 5px 0 10px;}
+#header ul.headermenu li.hmli3{width: 90px;}
+#header ul.headermenu li.hmli4{width: 70px; height: 5px; background-color: #e93052;position: absolute;bottom: -5px;left: 35px;z-index: 99999;margin: 0;}
+
+
+
+
+#content{display: table;width: 100%;}
+
+
+
+
+
+
+/****************底部样式***************/
+
+#footer{display: table; width: 100%;margin-top: 40px; }
+
+
+/*底部招聘*/
+#footer .recruit{width: 1100px; height: 105px;margin: 0 auto; border-top: solid 2px #e2e1dd;}
+#footer .recruit li{float: left; width: 360px; height: 100%; background-position: 80px center;background-repeat: no-repeat; }
+#footer .recruit li p{padding-left: 160px;}
+#footer .recruit li p.title{font-size: 24px;color: #00ab9f;line-height: 40px; margin-top: 21px;}
+#footer .recruit li p.subtitle{font-size: 14px; color: #c1c0c0;line-height: 22px;letter-spacing: 1px;}
+#footer .recruit li p.tel{font-size: 24px;color: #00ab9f;line-height: 62px; margin-top: 21px;}
+
+
+
+/*底部优势*/
+#footer .advantage{width: 1100px; height: 90px;margin: 0 auto;}
+#footer .advantage li{float: left;width: 25%; height: 100%;}
+#footer .advantage li span{display: block;float: left;height: 48px;margin-top: 21px;line-height: 24px;font-size: 18px;color: #fefefe;letter-spacing: 1px;}
+#footer .advantage li span.img{margin-left: 55px;margin-right: 15px;}
+#footer .advantage li.advantageli1{background-color: #a9cf52;}
+#footer .advantage li.advantageli2{background-color: #23ac38;}
+#footer .advantage li.advantageli3{background-color: #00ab9f;}
+#footer .advantage li.advantageli4{background-color: #159176;}
+
+
+/*底部分享*/
+#footer .share{width: 100%;height: 45px;border-bottom: solid 3px #000;border-top: solid 1px #000;}
+#footer .share .sharebox{width: 1100px;height: 100%; margin: 0 auto;}
+#footer .sharebox ul{float: right;height: 100%;}
+#footer .sharebox ul li{float: left;}
+#footer .sharebox ul li.title{font-size: 12px;color: #858585;line-height: 45px;}
+#footer .sharebox ul li.line{width: 1px; height: 11px;margin: 17px 15px 0 15px; background-color: #858585;}
+#footer .sharebox ul li.shareli{width: 25px; height: 25px;overflow: hidden;margin-top: 10px; background-position: center top; background-repeat: no-repeat;}
+#footer .sharebox ul li.qq{background-image: url(../img/footer/footshareico3.png);}
+#footer .sharebox ul li.weibo{background-image: url(../img/footer/footshareico2.png); margin: 10px 8px;}
+#footer .sharebox ul li.wechat{background-image: url(../img/footer/footshareico1.png);}
+#footer .sharebox ul li.shareli:hover{background-position: center bottom; }
+
+
+/*底部导航*/
+#footer .map{width: 100%; height: 55px; border-bottom: solid 1px #e5e5e5;background: #f8f8f8;}
+#footer .map ul{width: 1100px; height: 100%; margin: 0 auto;}
+#footer .map ul li{float: left;width: 100px; height: 15px;margin-top: 20px;box-sizing: border-box;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;text-align: center;border-left: solid 1px #e5e5e5;}
+#footer .map ul li.last{border-right: solid 1px #E5E5E5;}
+#footer .map ul li a{font-size: 12px; color: #858585;line-height: 15px;}
+#footer .map ul li a:hover{color: #17b4bb;}
+
+
+
+/*底部地址及备案信息*/
+#footer .address{width: 100%;display: table;background: #f8f8f8;}
+#footer .addressbox{width: 1100px;display: table;margin: 20px auto;}
+#footer .address ul.shaddress{float: left; width: 600px;}
+#footer .address ul.bjaddress{float: left; width: 500px;}
+#footer .address ul.copyright{float: left; width: 100%; margin-top: 15px;}
+#footer .address ul li{width: 100%;font-size: 12px;color: #858585;line-height: 25px;font-family: "microsoft yahei";}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

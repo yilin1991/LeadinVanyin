@@ -58,9 +58,27 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="bin\LeadinAdmin.dll" />
+    <Content Include="bin\LeadinAdmin.pdb" />
+    <Content Include="index.aspx" />
+    <Content Include="Login.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="index.aspx.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="index.aspx.designer.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -72,7 +90,19 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="bin\" />
+    <Folder Include="Article\" />
+    <Folder Include="Controls\" />
+    <Folder Include="css\" />
+    <Folder Include="Designer\" />
+    <Folder Include="DesignTemplate\" />
+    <Folder Include="FileInfo\" />
+    <Folder Include="font\" />
+    <Folder Include="img\" />
+    <Folder Include="Index\" />
+    <Folder Include="js\" />
+    <Folder Include="Mall\" />
+    <Folder Include="Member\" />
+    <Folder Include="Store\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

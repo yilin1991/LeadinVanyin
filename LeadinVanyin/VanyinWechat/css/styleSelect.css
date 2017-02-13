@@ -1,0 +1,30 @@
+
+.ui-select{display: none;}
+
+.selectbox{width: 100%; height: 100%;position: relative;}
+.selectText{width: 100%; height: 100%;}
+.selectText p{font-size: 14px;line-height: 40px;text-align: center;padding-left: -35px;color: #4f4f4f;}
+.selectico{width: 38px;height: 38px;position: absolute;right: 5px;top: 0;}
+.selectico img{position: absolute;width: 12px;height: 12px;left: 0;right: 0;top: 0;bottom: 0;margin: auto;}
+.selectbox{width: 100%; height: 100%;position: relative;}
+.selectlist{width: 100%; background-color: #FFFFFF;position: absolute;top: 38px;left: 0;z-index: 99;overflow-y: auto;height: 0;}
+.selectlist>ul> li{width: 100%; height: 30px;}
+.selectlist>ul> li >p{text-align: center;padding-left: -30px;line-height: 30px;font-size: 14px;}
+.selectlist>ul> li.select{background-color: #17b4bb;}
+
+
+
+.leftselect .selectbox{width: 100%; height: 100%;position: relative;}
+.leftselect .selectText{width: 100%; height: 100%;}
+.leftselect .selectText p{font-size: 14px;line-height: 40px;text-align: left;padding-left: 10px;color: #4f4f4f;}
+.leftselect .selectico{width: 38px;height: 38px;position: absolute;right: 5px;top: 0;}
+.leftselect .selectico img{position: absolute;width: 12px;height: 12px;left: 0;right: 0;top: 0;bottom: 0;margin: auto;}
+.leftselect .selectbox{width: 100%; height: 100%;position: relative;}
+.leftselect .selectbox{width: 100%; height: 100%;position: relative;}
+.leftselect .selectlist{width: 100%; background-color: #e8e8e8;position: absolute;top: 38px;left: 0;z-index: 99;overflow-y: auto;height: 0;}
+.leftselect .selectlist>ul> li{width: 100%; height: 30px;}
+.leftselect .selectlist>ul> li >p{text-align: left;padding-left: 10px;line-height: 30px;font-size: 14px;}
+.leftselect .selectlist>ul> li.select{background-color: #17b4bb;}
+
+
+

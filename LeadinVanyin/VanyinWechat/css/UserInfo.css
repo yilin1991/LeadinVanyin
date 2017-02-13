@@ -1,0 +1,52 @@
+
+.UserInfoTop{float: left;width: 100%;}
+.UserInfoTop img{display: block; width: 100%;}
+.UserInfoheader{float: left;width: 100%; margin-top: -70px;}
+.UserInfoimg{float: left;width: 100%;height: 140px;position: relative;}
+.UserInfobox{float: left; width: 140px; height:140px;border-radius: 50%;background-color: #d7d7d7;position: absolute;left: 0;right: 0;top: 0;bottom: 0;margin: auto;z-index: 99;overflow: hidden;}
+.UserInfobox img{max-height: 100%;max-width: 100%;position: absolute;left: 0;top: 0;right: 0;bottom: 0;margin: auto;z-index: 50;border-radius: 50%;}
+.UserInfoName{float: left;width: 100%; height: 50px;}
+.UserInfoName p{text-align: center;line-height: 50px;font-size: 16px;}
+
+
+.UserList{float: left;width: 100%; border-top: solid 1px #b3b3b3;border-bottom: solid 1px #b3b3b3;}
+.UserLi{float: left;width: 100%;height: 50px;background-color: #f4f4f4; border-top: solid 1px #dedede;}
+.UserLi a{display: block;width: 100%; height: 100%;text-decoration: none;background: url(../img/public/linkico.png) no-repeat 95% center;background-size: auto 18px;}
+.UserLi:nth-child(1){border-top: none;}
+.UserLi li{float: left; height:50px;}
+.UserLi li:nth-child(1){width: 40px; position: relative;}
+.UserLi li:nth-child(1) img{width:20px;position: absolute; left: 0;right: 0;top: 0;bottom: 0;margin: auto;}
+.UserLi li:nth-child(2) p{font-size: 16px;line-height: 50px; color: #242424;}
+.UserLi li:nth-child(2) p span{color: #c0c0c0;padding-left: 10px;}
+
+.contact{float: left;width: 100%; height: 50px;}
+.contact a{display: block;width: 100%;height: 100%;}
+.contact li{float: left;height: 100%;}
+.contact li p{line-height: 50px;font-size: 16px; color: #e93052;}
+
+.contact li:nth-child(1){margin-left: 17%;}
+.contact li:nth-child(2){background: url(../img/UserInfo/UserIcotel.png) no-repeat left center;background-size:auto 20px;margin-left: 5%;}
+.contact li:nth-child(2) p{padding-left: 40px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

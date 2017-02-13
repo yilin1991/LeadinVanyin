@@ -5,12 +5,12 @@ using System.Runtime.InteropServices;
 // 有关程序集的常规信息通过下列特性集
 // 控制。更改这些特性值可修改
 // 与程序集关联的信息。
-[assembly: AssemblyTitle("VanyinWeb")]
+[assembly: AssemblyTitle("LeadinWeb")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("VanyinWeb")]
-[assembly: AssemblyCopyright("版权所有(C)  2017")]
+[assembly: AssemblyProduct("LeadinWeb")]
+[assembly: AssemblyCopyright("版权所有(C)  2016")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // 如果此项目向 COM 公开，则下列 GUID 用于类型库的 ID
-[assembly: Guid("c9652b55-3822-4b92-8611-309529aa4d22")]
+[assembly: Guid("e480c571-7aa1-41c6-9f4d-e81db8455416")]
 
 // 程序集的版本信息由下列四个值组成:
 //

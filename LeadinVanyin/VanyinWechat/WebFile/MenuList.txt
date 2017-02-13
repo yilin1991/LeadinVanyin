@@ -1,0 +1,67 @@
+ {
+     "button":[
+     
+      {
+           "name":"预约下单",
+           "sub_button":[
+           {	
+               "type":"view",
+               "name":"我要印刷",
+               "url":"http://yilin2015.6655.la/Print.aspx"
+            },
+            {
+               "type":"view",
+               "name":"我要设计",
+               "url":"http://yilin2015.6655.la/Design.aspx"
+            },
+            {
+               "type":"view",
+               "name":"积分兑换",
+               "url":"http://yilin2015.6655.la/Redeem.aspx"
+            }]
+       },
+{
+"name":"我的万印",
+           "sub_button":[
+           {	
+               "type":"view",
+               "name":"印刷订单",
+               "url":"http://yilin2015.6655.la/OrderPrint.aspx"
+            },
+            {
+               "type":"view",
+               "name":"设计订单",
+               "url":"http://yilin2015.6655.la/OrderDesign.aspx"
+            },
+            {
+               "type":"view",
+               "name":"我的主页",
+               "url":"http://yilin2015.6655.la/UserInfo.aspx"
+            }]
+       },
+{
+"name":"关于万印",
+           "sub_button":[
+           {	
+               "type":"view",
+               "name":"最新活动",
+               "url":"http://yilin2015.6655.la/Activity.aspx"
+            },
+            {
+               "type":"view",
+               "name":"了解万印",
+               "url":"http://yilin2015.6655.la/AboutUs.aspx"
+            },
+            {
+                "type":"view",
+               "name":"联系我们",
+               "url":"http://yilin2015.6655.la/Contact.aspx"
+            },
+			{
+                "type":"view",
+               "name":"投诉建议",
+               "url":"http://yilin2015.6655.la/Opinion.aspx"
+            }]
+       }
+]
+ }

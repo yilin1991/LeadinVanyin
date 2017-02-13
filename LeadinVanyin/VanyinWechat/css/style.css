@@ -1,0 +1,64 @@
+*{margin: 0;padding: 0;}
+li{list-style: none;}
+ul{width: 100%; height: 100%;}
+div,ul,li{-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;}
+
+/************头部样式**************/
+#header{width: 100%; height: 45px; background-color: #17b4bb;position: relative;}
+#header p{font-size: 18px; color: #fff;line-height: 45px;text-align: center;letter-spacing: 2px;}
+
+.headerback{width: 45px;height: 45px;position: absolute;left: 0;top: 0;}
+.headerback a{display: block;width: 100%;height: 100%;position: relative;}
+.headerback img{position: absolute;left: 0;top: 0;right: 0;bottom: 0;margin: auto;height: 15px;}
+/*************首页样式**************/
+
+#content{float: left; width: 100%;padding-bottom: 50px;}
+
+
+
+
+
+/*底部样式*/
+#footer{position: fixed;width: 100%; height: 50px;border-top: solid 1px #eaeaea;bottom: 0px;background-color: #FFFFFF;}
+#footer ul{width: 100%;height: 100%;}
+#footer ul li{float: left;width: 25%;height: 100%;background-position:center 5px;background-repeat: no-repeat;background-size: auto 20px;}
+#footer ul li p{font-size: 12px;line-height: 20px;text-align: center;margin-top: 25px;}
+#footer ul li a{display: block;width: 100%;height: 100%;text-decoration: none;}
+#footer ul li:nth-child(1){background-image: url(../img/footer/footerico1.png);}
+#footer ul li:nth-child(1) p{color: #797979;}
+
+#footer ul li:nth-child(2){background-image: url(../img/footer/footerico3.png);}
+#footer ul li:nth-child(2) p{color: #17b4bb;}
+
+#footer ul li:nth-child(3){background-image: url(../img/footer/footerico2.png);}
+#footer ul li:nth-child(3) p{color: #e93052;}
+
+#footer ul li:nth-child(4){background-image: url(../img/footer/footerico4.png);}
+#footer ul li:nth-child(4) p{color: #797979;}
+
+
+
+.orderfooter{position: fixed;bottom: 0;left: 0; width: 100%; height: 50px;background-color: #e93052;z-index: 999;}
+.orderfooter a{display: block;width: 100%;height: 100%;font-size: 18px;color: #FFFFFF;text-align: center;line-height: 50px;text-decoration: none;}
+
+.orderfooter .btnSubmit {
+    width: 100%;height: 100%;font-size: 18px;color: #FFFFFF;border:none;background-color: #e93052;-webkit-appearance:none;
+}
+
+
+
+    .showmessage {
+    width:80%;
+    position:fixed;
+    top:30%;
+    left:10%;
+    background:rgba(0,0,0,0.8);
+    border-radius:5px;
+    z-index:999999;
+}
+.showmessage p{font-size: 13px; color: #FFFFFF; padding:10px 15px;line-height: 20px; text-align: center;}
+
+
+.ovfHiden{overflow: hidden;height: 100%;}

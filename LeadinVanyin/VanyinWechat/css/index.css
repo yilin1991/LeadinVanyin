@@ -1,0 +1,82 @@
+/*banner*/
+.banner{float: left;width: 100%;}
+.banner img{display: block;width: 100%;}
+
+/*印刷*/
+.printbody{float: left; width: 100%; }
+.printtitle{float: left; width: 100%;height: 50px; background-color: #ededed;}
+.printtitle >ul >li{float: left;height: 100%;}
+.printtitle >ul >li:nth-child(1){width: 16px; height: 16px;margin-left: 3%;}
+.printtitle >ul >li:nth-child(1) img{width: 100%; height: 100%; margin-top: 17px;}
+
+.printtitle >ul>li:nth-child(2){margin-left: 10px;}
+.printtitle >ul>li:nth-child(2) p{font-size: 18px; color: #17b4bb;line-height: 50px;font-weight: 600;}
+
+.printtitle >ul>li:nth-child(3){float: right;margin-right: 3%;}
+.printtitle >ul>li:nth-child(3) a{display: block;height: 30px;background-color: #17B4BB;padding: 0 12px; margin-top: 10px;font-size: 14px;color: #FFFFFF;text-decoration: none;line-height: 30px;border-radius: 3px;}
+
+.printList{float: left;width: 100%;border-bottom: solid 1px #d6d6d6;border-left: solid 1px #d6d6d6;}
+
+.printLi{float: left;width: 20%;border-right: solid 1px #d6d6d6;border-top: solid 1px #d6d6d6;}
+/*.printLi:nth-child(5n){margin-left: -px; }*/
+/*.printLi:nth-child(5)*/
+
+.printLi a li{float: left; width: 100%;}
+.printLi a li:nth-child(1){margin-top: 10px;}
+.printLi a li:nth-child(1) img{display: block; width: 40%;margin-left: 30%;}
+.printLi a li:nth-child(2){height: 25px; }
+.printLi a li:nth-child(2) p{font-size: 12px;line-height: 25px;text-align: center;}
+
+.printLi:nth-child(1) a li:nth-child(2) p{color: #000000;}
+.printLi:nth-child(2) a li:nth-child(2) p{color: #d4595e;}
+.printLi:nth-child(3) a li:nth-child(2) p{color: #3cb38d;}
+.printLi:nth-child(4) a li:nth-child(2) p{color: #268bb9;}
+.printLi:nth-child(5) a li:nth-child(2) p{color: #18b4bb;}
+.printLi:nth-child(6) a li:nth-child(2) p{color: #e93052;}
+.printLi:nth-child(7) a li:nth-child(2) p{color: #d06716;}
+.printLi:nth-child(8) a li:nth-child(2) p{color: #73939e;}
+.printLi:nth-child(9) a li:nth-child(2) p{color: #674941;}
+
+.printLi:nth-child(10) a{float: left; display: block;width: 100%;height: 100%;}
+.printLi:nth-child(10) a ul{float: left;}
+.printLi:nth-child(10) a li p{color: #e93052;font-size: 14px;text-align: center;padding-bottom: 8px;border: none; line-height: 20px;}
+
+
+
+
+
+/*设计*/
+.designbody{float: left;width: 100%; background-color: #f4f4f4;}
+
+.designbox{float: left;width: 94%; margin-left: 3%; padding-bottom: 15px;}
+.designtitle{float: left; width: 100%;height: 50px;margin-top: 10px;}
+.designtitle >ul >li{float: left;height: 100%;}
+.designtitle >ul >li:nth-child(1){width: 16px; height: 16px;}
+.designtitle >ul >li:nth-child(1) img{width: 100%; height: 100%; margin-top: 17px;}
+
+.designtitle >ul>li:nth-child(2){margin-left: 10px;}
+.designtitle >ul>li:nth-child(2) p{font-size: 18px; color: #e93052;line-height: 50px;font-weight: 600;}
+
+.designtitle >ul>li:nth-child(3){float: right;}
+.designtitle >ul>li:nth-child(3) a{display: block;height: 30px;background-color: #e93052;padding: 0 12px; margin-top: 10px;font-size: 14px;color: #FFFFFF;text-decoration: none;line-height: 30px;border-radius: 3px;}
+
+.designlist{float: left; width: 100%;border-left: solid 3px #e93052;}
+.designlistbox{float: right;width: 98%; border-left: dotted 1px #656565;}
+.designli{float: left;width: 32.5%; background-color: #cacaca;border-left: solid 1px #F4F4F4; border-bottom: solid 1px #F4F4F4; margin-left: -2px;}
+.designli a{float: left; display: block;width: 100%;}
+.designli a img{ display: block;width: 100%;}
+
+.designli:nth-child(3n+1){margin-left: 2.5%;}
+
+/*工艺*/
+.craftsbody{float: left;width: 94%; margin-left: 3%;}
+
+.craftslist{float: left;width: 100%; margin-top: 15px; background-color: #17b4bb;}
+.craftslist li{float: left;}
+
+.craftslist li:nth-child(1){width: 100%;}
+.craftslist li:nth-child(1) img{display: block; width: 100%;}
+.craftslist li:nth-child(2){width: 100%; height: 30px;}
+
+.craftslist p{font-size: 14px;line-height:30px; text-align: center;color: #FFFFFF;}
+

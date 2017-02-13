@@ -1,0 +1,161 @@
+body{ background-color: #ebebeb;}
+
+
+.title{float: left;width: 100%;height: 60px;background-color: #FFFFFF;}
+.titlebox{width: 100%;height: 100%;background: url(../img/footer/footerico2.png) no-repeat 30% center;background-size: auto 25px;}
+.title p{font-size: 24px;line-height: 60px;color: #e93052;text-align: center;padding-left: 30px;}
+
+.design{float: left;width: 100%;}
+
+.inputlist.stencil{height: 40px;margin-top: 10px; background-color: #f4f4f4;border: solid 1px #b3b3b3;border-radius: 5px;}
+ .inputlist.stencil a{display: block;width: 100%;height: 100%;text-decoration: none;background: url(../img/public/linkico.png) no-repeat 93% center; background-size: auto 15px; }
+.inputlist.stencil p{font-size: 14px;padding-left :30px;line-height: 40px;color: #343535;}
+
+.IsPrint{float: left;width: 100%; height: 50px; border-top: solid 1px #b3b3b3;border-bottom: solid 1px #b3b3b3;margin-top: 25px;}
+.IsPrint li:nth-child(1){float: left;height: 100%;}
+.IsPrint li:nth-child(1) p{font-size: 14px;padding-left:20px;line-height: 50px;color: #333333;}
+
+
+.IsPrint.IsPrintselect li:nth-child(2){border: solid 1px #0b8085; background-color: #17b4bb;}
+
+.IsPrint li:nth-child(2){float: right;margin-right: 20px;width: 60px; height: 30px;border: solid 1px #b81f3b; margin-top: 10px;background-color: #e93052; border-radius: 3px;position: relative}
+.IsPrint li:nth-child(2) span{display: block;width: 50%;height: 30px;float: left;position: relative;}
+.IsPrint li:nth-child(2) span img{position: absolute;left: 0;top: 0;right: 0;bottom: 0;width: 14px;margin: auto;}
+
+.IsPrint.IsPrintselect li:nth-child(2) .IsPrintbox{border: solid 1px #0e8e93;}
+
+.IsPrintbox{width: 22px;height: 22px; background-color: #f6f5f5;border:solid 1px #c62442; position: absolute;left: 3px;top: 3px;z-index: 99;}
+
+.IsPrint li:nth-child(3){float: right;}
+.IsPrint li:nth-child(3) p{font-size: 16px;line-height: 50px;margin-right: 10px; color: #e93052;}
+.IsPrint.IsPrintselect li:nth-child(3) p{ color: #17b4bb;}
+
+
+
+.printbody{float: left;width: 100%;overflow: hidden;height: 0;}
+.printbox{float: left;width:100%;}
+
+.inputlist{width: 90%; margin-left: 5%;}
+
+.inputlist.input1{height: 40px;margin-top: 10px;}
+.inputlist.input1>ul> li{float: left;height: 40px;}
+.inputlist.input1>ul> li:nth-child(1){width: 30%;border: solid 1px #b3b3b3; background-color: #f4f4f4; border-radius: 5px 0 0 5px;}
+.inputlist.input1>ul> li:nth-child(1) p{font-size: 14px;text-align: center;line-height: 40px;color: #343535;}
+.inputlist:first-child{margin-top: 25px;}
+
+.inputlist.input1>ul>li:nth-child(2){width: 70%;border: solid 1px #b3b3b3; border-left: none; border-radius:0 5px 5px 0;}
+
+
+.inputtxtnum{float: left; width: 100%; height: 38px;border: none; background: rgba(0,0,0,0);text-align: center;-webkit-appearance: none;border-radius:0 5px 5px 0;font-size: 14px;outline: none;color: #4f4f4f;}
+
+.inputlist.inputremark{ height: 150px; border: solid 1px #B3B3B3;margin-top: 10px;border-radius: 5px; background-color: #fff;}
+.remarktitle{width: 100%; height: 40px;background: #F4F4F4;border-radius: 5px 5px 0 0;}
+.remarktitle p{width: 30%;text-align: center;line-height: 40px;color: #343535;font-size: 14px;}
+.remarkinput{width: 96%;margin-left: 2%;height: 110px;}
+.txtremark{width: 100%;height: 90px;padding: 5px 0;border: none;line-height: 20px;font-size: 14px;background: rgba{0,0,0,0};}
+
+.otherbody{float: left; width: 100%;margin-top: 15px;border-top: solid 1px #b3b3b3;border-bottom: solid 1px #b3b3b3;background-color: #f4f4f4;}
+.otherlist{float: left; width: 100%;}
+.otherltitle{float: left;width: 100%; height: 50px;background: url(../img/public/addressico.png) no-repeat 3% center;background-size: auto 22px;position: relative;}
+
+.otherlist:nth-child(1) .otherltitle > a{ float: left; display: block;width: 100%; height: 100%;text-decoration: none;}
+.otherlist:nth-child(1) .otherltitle > a:before{content: ""; height: 20px; width: 14px; background: url(../img/public/linkico.png) no-repeat  center; background-size: auto 20px;position: absolute;left: 90%; top: 15px;
+animation:myfirst1 0.5s;
+-webkit-animation: myfirst1 0.5s;
+-moz-animation: myfirst1 0.5s;
+-o-animation:myfirst1 0.5s;
+animation-fill-mode: both;
+-webkit-animation-fill-mode:both; 
+-moz-animation-fill-mode: both;}
+
+.otherlist:nth-child(1) .otherltitle.select > a:before{
+animation:myfirst 0.5s;
+-webkit-animation: myfirst 0.5s;
+-moz-animation: myfirst 0.5s;
+-o-animation:myfirst 0.5s;
+animation-fill-mode: both;
+-webkit-animation-fill-mode:both; 
+-moz-animation-fill-mode: both;
+}
+
+@keyframes myfirst1
+{
+from {transform: rotate(90deg);}
+to {transform: rotate(0deg);}
+}
+@-moz-keyframes myfirst1 /* Firefox */
+{
+from {transform: rotate(90deg);}
+to {transform: rotate(0deg);}
+}
+
+@-webkit-keyframes myfirst1 /* Safari 和 Chrome */
+{
+from {transform: rotate(90deg);}
+to {transform: rotate(0deg);}
+}
+
+@-o-keyframes myfirst1 /* Opera */
+{
+from {transform: rotate(90deg);}
+to {transform: rotate(0deg);}
+}
+
+
+
+@keyframes myfirst
+{
+from {transform: rotate(0deg);}
+to {transform: rotate(90deg);}
+}
+@-moz-keyframes myfirst /* Firefox */
+{
+from {transform: rotate(0deg);}
+to {transform: rotate(90deg);}
+}
+
+@-webkit-keyframes myfirst /* Safari 和 Chrome */
+{
+from {transform: rotate(0deg);}
+to {transform: rotate(90deg);}
+}
+
+@-o-keyframes myfirst /* Opera */
+{
+from {transform: rotate(0deg);}
+to {transform: rotate(90deg);}
+}
+
+
+
+
+.otherlist:nth-child(1) .otherltitle > a > p{line-height: 20px;margin-left: 13%;margin-top: 15px;font-size: 16px;color: #b9b9b9; border-left: solid 1px #B3B3B3;padding-left: 3%;}
+
+.otherlist:nth-child(2){height: 50px; background: url(../img/public/remarkico.png) no-repeat 3% center;background-size: auto 22px;border-top: solid 1px #dedede;}
+.otherlist:nth-child(2) li{float: left;}
+.otherlist:nth-child(2) li:nth-child(1){width: 1px; height: 20px; margin-top: 15px; background-color: #B3B3B3; margin-left: 13%;}
+.otherlist:nth-child(2) li:nth-child(2){width: 82%;height: 100%;margin-left: 3%;}
+.txtremark1{width: 100%; height: 100%;border: none;background: none;font-size: 16px; color: #B9B9B9;-webkit-appearance: none;}
+
+.otherlistbody{float: left;width: 100%; overflow: hidden;height: 0;}
+.otherlistbox{float: left;width: 90%;margin-left: 5%;border-top: solid 1px #B3B3B3;padding-bottom: 10px;}
+.otherlisttop{float: left; width: 100%; height: 40px;background-color: #f9f9f9;margin-top: 10px;border: solid 1px #eeeeee;border-radius: 5px;overflow: hidden;}
+
+
+.otherlisttop> a{display: block;width: 100%;height: 100%; background: url(../img/public/addsico.png) no-repeat 10px center;background-size: auto 20px;text-decoration: none;}
+
+.otherlisttop> a>p{font-size: 16px;line-height: 40px;padding-left: 40px;color: #e93052;}
+.addlist{float: left;width: 100%;}
+.addli{float: left;width: 100%; margin-top: 10px;height: 70px; background-color: #f9f9f9;margin-top: 10px;border: solid 1px #eeeeee;border-radius: 5px;}
+
+.addli ul li{float: left;height: 100%;}
+.addli ul li:nth-child(1){width: 80%;  background: url(../img/public/addmorenico.png)  no-repeat 15px center;background-size: auto 20px;}
+.addli ul li:nth-child(1) p{font-size: 14px;line-height: 25px;padding-left: 50px;color: #8d8d8d;}
+.addli ul li:nth-child(1) p:nth-child(1){margin-top: 10px;color: #363636;}
+
+.addli ul li:nth-child(1) p:nth-child(1) span:nth-child(1){padding-right: 20px;}
+
+.addli ul li:nth-child(2){width: 20%;}
+.addli ul li:nth-child(2) a{display: block;width: 100%;height: 100%;position: relative;}
+.addli ul li:nth-child(2) a img{position: absolute;left: 0;top: 0;right: 0;bottom: 0;margin: auto;height: 25px;}
+

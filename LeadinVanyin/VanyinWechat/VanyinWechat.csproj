@@ -58,10 +58,81 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="bin\BLL.dll" />
+    <Content Include="bin\BLL.pdb" />
+    <Content Include="bin\CCPRestSDK.dll" />
+    <Content Include="bin\CCPRestSDK.pdb" />
+    <Content Include="bin\CKEditor.NET.dll" />
+    <Content Include="bin\CKFinder.dll" />
+    <Content Include="bin\COM.Excel.dll" />
+    <Content Include="bin\DAL.dll" />
+    <Content Include="bin\DAL.pdb" />
+    <Content Include="bin\Excel.dll" />
+    <Content Include="bin\IBatisNet.Common.dll" />
+    <Content Include="bin\IBatisNet.DataMapper.dll" />
+    <Content Include="bin\Maticsoft.Common.dll" />
+    <Content Include="bin\Maticsoft.Common.pdb" />
+    <Content Include="bin\Maticsoft.DBUtility.dll" />
+    <Content Include="bin\Maticsoft.DBUtility.pdb" />
+    <Content Include="bin\Model.dll" />
+    <Content Include="bin\Model.pdb" />
+    <Content Include="bin\MySql.Data.dll" />
+    <Content Include="bin\NPOI.dll" />
+    <Content Include="bin\OpenSmtp.dll" />
+    <Content Include="bin\OWC10Chart.dll" />
+    <Content Include="bin\System.Data.SQLite.DLL" />
+    <Content Include="bin\Vanyin.Web.UI.dll" />
+    <Content Include="bin\Vanyin.Web.UI.pdb" />
+    <Content Include="bin\WeChatAPI.dll" />
+    <Content Include="bin\WeChatAPI.pdb" />
+    <Content Include="Button.aspx" />
+    <Content Include="Design.aspx" />
+    <Content Include="Designstencil.aspx" />
+    <Content Include="EditAddress.aspx" />
+    <Content Include="Index.aspx" />
+    <Content Include="Login.aspx" />
+    <Content Include="Print.aspx" />
+    <Content Include="registered.aspx" />
+    <Content Include="UserInfo.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Button.aspx.cs">
+      <DependentUpon>Button.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Design.aspx.cs">
+      <DependentUpon>Design.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Designstencil.aspx.cs">
+      <DependentUpon>Designstencil.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EditAddress.aspx.cs">
+      <DependentUpon>EditAddress.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Index.aspx.cs">
+      <DependentUpon>Index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Print.aspx.cs">
+      <DependentUpon>Print.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="registered.aspx.cs">
+      <DependentUpon>registered.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserInfo.aspx.cs">
+      <DependentUpon>UserInfo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="Web.Debug.config">
@@ -72,7 +143,15 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="bin\" />
+    <Folder Include="aspnet_client\" />
+    <Folder Include="Config\" />
+    <Folder Include="Control\" />
+    <Folder Include="css\" />
+    <Folder Include="font\" />
+    <Folder Include="img\" />
+    <Folder Include="js\" />
+    <Folder Include="Tools\" />
+    <Folder Include="WebFile\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

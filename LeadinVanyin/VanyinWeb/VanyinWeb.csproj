@@ -58,12 +58,93 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="article.aspx" />
+    <Content Include="bin\Leadin.BLL.dll" />
+    <Content Include="bin\Leadin.BLL.pdb" />
+    <Content Include="bin\Leadin.Common.dll" />
+    <Content Include="bin\Leadin.Common.pdb" />
+    <Content Include="bin\Leadin.DAL.dll" />
+    <Content Include="bin\Leadin.DAL.pdb" />
+    <Content Include="bin\Leadin.Model.dll" />
+    <Content Include="bin\Leadin.Model.pdb" />
+    <Content Include="bin\Leadin.Web.UI.dll" />
+    <Content Include="bin\Leadin.Web.UI.pdb" />
+    <Content Include="bin\LeadinWeb.dll" />
+    <Content Include="bin\LeadinWeb.pdb" />
+    <Content Include="bin\LitJSON.dll" />
+    <Content Include="bin\Maticsoft.DBUtility.dll" />
+    <Content Include="bin\Maticsoft.DBUtility.pdb" />
+    <Content Include="bin\NPOI.dll" />
+    <Content Include="Conference.aspx" />
+    <Content Include="design.aspx" />
+    <Content Include="designdetail.aspx" />
+    <Content Include="Exhibition.aspx" />
+    <Content Include="index.aspx" />
+    <Content Include="LeadinWeb.csproj" />
+    <Content Include="LeadinWeb.csproj.user" />
+    <Content Include="LeadinWeb.csproj.vspscc" />
+    <Content Include="news.aspx" />
+    <Content Include="obj\Debug\LeadinWeb.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\Debug\LeadinWeb.dll" />
+    <Content Include="obj\Debug\LeadinWeb.pdb" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="article.aspx.cs">
+      <DependentUpon>article.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="article.aspx.designer.cs">
+      <DependentUpon>article.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Conference.aspx.cs">
+      <DependentUpon>Conference.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Conference.aspx.designer.cs">
+      <DependentUpon>Conference.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="design.aspx.cs">
+      <DependentUpon>design.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="design.aspx.designer.cs">
+      <DependentUpon>design.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="designdetail.aspx.cs">
+      <DependentUpon>designdetail.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="designdetail.aspx.designer.cs">
+      <DependentUpon>designdetail.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Exhibition.aspx.cs">
+      <DependentUpon>Exhibition.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Exhibition.aspx.designer.cs">
+      <DependentUpon>Exhibition.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="index.aspx.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="index.aspx.designer.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="news.aspx.cs">
+      <DependentUpon>news.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="news.aspx.designer.cs">
+      <DependentUpon>news.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="bin\LeadinWeb.dll.config" />
+    <Content Include="obj\Debug\DesignTimeResolveAssemblyReferences.cache" />
+    <Content Include="obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <Content Include="obj\Debug\LeadinWeb.csprojResolveAssemblyReference.cache" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -72,7 +153,14 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="bin\" />
+    <Folder Include="Control\" />
+    <Folder Include="css\" />
+    <Folder Include="img\" />
+    <Folder Include="js\" />
+    <Folder Include="kindeditor-4.1.10\" />
+    <Folder Include="obj\Debug\TempPE\" />
+    <Folder Include="Tools\" />
+    <Folder Include="UplaodFileds\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

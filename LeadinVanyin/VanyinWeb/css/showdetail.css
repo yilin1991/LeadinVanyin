@@ -1,0 +1,41 @@
+*{margin: 0;padding: 0;}
+li{list-style: none;}
+
+
+.showdetail{width: 100%; height: 100%; background:rgba(0,0,0,0.8);position: fixed;left: 0;top: 0;overflow-y: auto; min-width: 1100px;z-index: 999999999999;opacity: 0;}
+.showdetail .showbox{width: 1100px;margin: 20px auto 0 auto; display: table;opacity: 0;}
+
+
+.showdetail .showcontent{float: left;width: 805px;background-color: #ffffff;border-radius: 5px; overflow: hidden;}
+.showdetail .showcontent .showcontenttop {height: 110px;width: 100%; background-color: #fafafa;border-bottom: solid 1px #e8e8e8;float: left;}
+
+    .showdetail .showcontent img {
+    max-width:100%;
+    }
+
+.showcontent .showcontenttop  li{float: left;}
+.showcontent .showcontenttop  li.templatename{color: #5c5c5c;font-size: 28px; line-height: 40px;padding-left: 30px;margin-top: 20px;width: 100%;}
+
+.showcontent .showcontenttop  li.templatekey{height: 20px; margin-top: 8px;margin-left: 30px;}
+.showcontent .showcontenttop  li.templatekey span{display: block;float: left;height: 18px; border: solid 1px #e5e5e5;font-size: 12px; color: #848484;line-height: 18px;padding: 0 10px;margin-right: 10px;border-radius: 5px;}
+
+.showcontent .detailcontent{float: left;width: 745px; margin: 30px 30px 50px 30px;}
+
+
+.showdetail .showremark{width: 280px; background-color: #FAFAFA;float: right; border-radius: 5px;overflow: hidden;}
+.showdetail .showremark li{float: left; width: 100%;border-bottom: solid 1px #e8e8e8;}
+.showdetail .showremark li.templateTools{border-bottom: none;}
+.showdetail .showremark li.selectdesign{height: 90px;background-color: #fafafa;}
+.showdetail .showremark li.selectdesign a{display: block;width: 218px;height: 38px;background-color: #e93052;border: solid 1px #cd0027; margin-left: 30px;margin-top: 25px;font-size: 18px;color: #FFFFFF;line-height: 38px;text-align: center;}
+.showdetail .showremark li.remark > p.title{font-size: 12px; color: #5c5c5c;padding: 0 30px;margin-top: 15px;}
+.showdetail .showremark li.remark > .text{width: 220px; margin: 10px auto 0 auto;font-size: 12px;line-height: 18px;color: #9a9a9a; margin-bottom: 15px;}
+.showdetail .showremark li.remark > .text span{padding-right: 10px;}
+
+
+
+
+
+
+
+
+
