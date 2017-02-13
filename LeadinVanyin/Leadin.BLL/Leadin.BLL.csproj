@@ -39,7 +39,50 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Address.cs" />
+    <Compile Include="AdminInfo.cs" />
+    <Compile Include="AdminType.cs" />
+    <Compile Include="Article.cs" />
+    <Compile Include="ArticleType.cs" />
+    <Compile Include="Designer.cs" />
+    <Compile Include="DesignTemplate.cs" />
+    <Compile Include="DesignTemplateType.cs" />
+    <Compile Include="ExchangeOrder.cs" />
+    <Compile Include="ExOrderRecord.cs" />
+    <Compile Include="Filetable.cs" />
+    <Compile Include="FileType.cs" />
+    <Compile Include="GetIntegralType.cs" />
+    <Compile Include="IndexTemplate.cs" />
+    <Compile Include="IndexType.cs" />
+    <Compile Include="IntegralRecord.cs" />
+    <Compile Include="Mall.cs" />
+    <Compile Include="MallType.cs" />
+    <Compile Include="Member.cs" />
+    <Compile Include="MemberDetail.cs" />
+    <Compile Include="MemberType.cs" />
+    <Compile Include="PrintCompany.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="StockRecord.cs" />
+    <Compile Include="Store.cs" />
+    <Compile Include="StoreCity.cs" />
+    <Compile Include="StoreType.cs" />
+    <Compile Include="view_IndexTemplate.cs" />
+    <Compile Include="view_MallOrder.cs" />
+    <Compile Include="view_Member.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Leadin.Common\Leadin.Common.csproj">
+      <Project>{0a518799-1d83-443e-865f-154e9dc4c0ea}</Project>
+      <Name>Leadin.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Leadin.DAL\Leadin.DAL.csproj">
+      <Project>{7206dbc8-b00f-4b9b-b564-fcce2f2cfe13}</Project>
+      <Name>Leadin.DAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Leadin.Model\Leadin.Model.csproj">
+      <Project>{3225875c-c018-4881-93c4-625fe76d54d3}</Project>
+      <Name>Leadin.Model</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
